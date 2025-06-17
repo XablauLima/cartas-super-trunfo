@@ -14,22 +14,22 @@ int main (){
     printf("Insira as informações da carta 1: \nEstado: "); 
     scanf(" %s", estado1); 
 
-    printf("Código da carta: "); 
+    printf("Código da carta: /n"); 
     scanf("%s", codigo); 
 
-    printf("Nome da cidade: "); 
+    printf("Nome da cidade: /n"); 
     scanf("%s", cidade); 
 
-    printf("População: "); 
+    printf("População: /n"); 
     scanf(" %lu", &populacao); 
 
-    printf("Área em Km²: "); 
+    printf("Área em Km²: /n"); 
     scanf(" %f", &areakm); 
 
-    printf("PIB em bilhões: "); 
+    printf("PIB em bilhões: /n"); 
     scanf(" %f", &pib); 
 
-    printf("Número de pontos turisticos: ");
+    printf("Número de pontos turisticos: /n");
     scanf(" %d", &pontosturisticos); 
 
         
@@ -37,22 +37,22 @@ int main (){
     printf("Insira as informações da carta 2: \nEstado: "); 
     scanf("%s", estado2); 
 
-    printf("Código da carta: "); 
+    printf("Código da carta: /n"); 
     scanf("%s", codigo2); 
 
-    printf("Nome da cidade: "); 
+    printf("Nome da cidade: /n"); 
     scanf("%s", cidade2); 
 
-    printf("População: "); 
+    printf("População: /n"); 
     scanf(" %lu", &populacao2); 
 
-    printf("Área em Km²: "); 
+    printf("Área em Km²: /n"); 
     scanf(" %f", &areakm2); 
 
-    printf("PIB: "); 
+    printf("PIB: /n"); 
     scanf(" %f", &pib2); 
 
-    printf("Número de pontos turisticos: ");
+    printf("Número de pontos turisticos: /n");
     scanf(" %d", &pontosturisticos2); 
 
     // Inserindo calculos da densidade e do pibpercapta
